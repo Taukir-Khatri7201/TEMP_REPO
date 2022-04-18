@@ -1,0 +1,3 @@
+Scaffold-DbContext -provider Microsoft.EntityFrameworkCore.SqlServer -connection "Data Source=(localdb)\MSSQLLocalDB;initial catalog=DBFirstCrud;" -OutputDir Models -ContextDir Data -DataAnnotations
+
+Scaffold-DbContext -provider Microsoft.EntityFrameworkCore.SqlServer -connection "Data Source=(localdb)\MSSQLLocalDB;initial catalog=HMSDB;" -OutputDir Models -ContextDir Data -DataAnnotations
